@@ -21,11 +21,13 @@
     }
 
     /* Banner Nav  */
-
     .top-banner {
         padding: 9.375rem 0;
     }
 
+    .testimonial-section .carousel-item p {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -41,6 +43,36 @@
     .top-banner {
         padding: 10.875rem 0 9.375rem;
 
+    }
+
+    .story-section {
+        padding: 3rem 0;
+    }
+
+    .testimonial-section .carousel-item {
+        padding: 14rem 3.125rem;
+    }
+
+    .newsletter {
+        width: 75%;
+        text-align: center;
+    }
+
+    .newsletter .main-btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .footer a i,
+    .footer .footer-link {
+        padding: 0 0.7rem;
+    }
+
+}
+
+@media screen and (max-width:330px) {
+    .testimonial-section .carousel-item {
+        padding: 15rem 3.125rem;
     }
 
 }
